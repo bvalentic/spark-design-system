@@ -26,8 +26,7 @@
   "dependencies": {
     "dom-slider": "1.5.3",
     "lory.js": "^2.5.3",
-    "object-fit-images": "^3.2.4",
-    "tiny-date-picker": "^3.2.6"
+    "object-fit-images": "^3.2.4"
   },
   "devDependencies": {
     "@babel/core": "^7.1.0",

@@ -1,5 +1,4 @@
 /* global window */
-import TinyDatePicker from 'tiny-date-picker';
 import getElements from '../utilities/getElements';
 
 const setupTDP = (input, config) => {
@@ -15,8 +14,6 @@ const setupTDP = (input, config) => {
       .replace(/[^ -~]/g, ''),
   };
 
-  const dp = TinyDatePicker(input, Object.assign(tdpConfig, config));
-
   dp.on('select', () => {
     input.dispatchEvent(new window.Event('input'));
     input.focus();
@@ -28,10 +25,4 @@ const bindUIEvents = (element, config) => {
   setupTDP(input, config);
 };
 
-const datePicker = (config) => {
-  getElements('[data-sprk-datepicker]', (element) => {
-    bindUIEvents(element, config);
-  });
-};
-
-export { datePicker, bindUIEvents };
+export { bindUIEvents };

@@ -3,7 +3,6 @@ import { SprkFormatterDateModule } from './directives/inputs/formatters/sprk-for
 import { SprkFormatterMonetaryModule } from './directives/inputs/formatters/sprk-formatter-monetary/sprk-formatter-monetary.module';
 import { SprkFormatterPhoneNumberModule } from './directives/inputs/formatters/sprk-formatter-phone-number/sprk-formatter-phone-number.module';
 import { SprkFormatterSsnModule } from './directives/inputs/formatters/sprk-formatter-ssn/sprk-formatter-ssn.module';
-import { SprkDatepickerModule } from './directives/inputs/sprk-datepicker/sprk-datepicker.module';
 import { SprkFieldErrorModule } from './directives/inputs/sprk-field-error/sprk-field-error.module';
 import { SprkHelperTextModule } from './directives/inputs/sprk-helper-text/sprk-helper-text.module';
 import { SprkInputModule } from './directives/inputs/sprk-input/sprk-input.module';
@@ -80,7 +79,6 @@ import { SprkHighlightBoardModule } from './components/sprk-highlight-board/sprk
     SprkFormatterDateModule,
     SprkFormatterMonetaryModule,
     SprkFormatterSsnModule,
-    SprkDatepickerModule,
     SprkPromoModule,
     SprkTableModule,
     SprkTableHeadModule,

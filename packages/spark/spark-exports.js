@@ -4,10 +4,6 @@ import {
   bindUIEvents as bindDateInputUIEvents,
 } from './base/dateInput';
 import {
-  datePicker,
-  bindUIEvents as bindDatePickerUIEvents,
-} from './base/datePicker';
-import {
   monetaryInput,
   formatMonetary,
   bindUIEvents as bindMonetaryUIEvents,
@@ -135,8 +131,6 @@ export {
   dateInput,
   formatDate,
   bindDateInputUIEvents,
-  datePicker,
-  bindDatePickerUIEvents,
   monetaryInput,
   formatMonetary,
   bindMonetaryUIEvents,
